@@ -28,7 +28,7 @@ def give_the_bill_fr():
                 print(f"Chaque personne devra payer :€{round(total_bill_per_person,2) }")  # Affiche le montant à payer par personne
                 break
             except ValueError:
-                print("Nous acceptons que des chiffres, mais bien essayé :) ")  # Message d'erreur si l'utilisateur n'entre pas un chiffre
+                print("Nous acceptons que des chiffres, mais bien essayé :) si vous avez rajouter une virgule merci de la remplacer par un point !")  # Message d'erreur si l'utilisateur n'entre pas un chiffre
 
 
 def give_the_bill_en():
@@ -45,7 +45,7 @@ def give_the_bill_en():
             print(f"each person should pay:${round(total_bill_per_person,2) }")  # Affiche le montant à payer par personne
             break
         except ValueError:
-            print("accept just number, but nice try :)")  # Message d'erreur si l'utilisateur n'entre pas un chiffre
+            print("accept just number, but nice try :) if you added a comma please replace it with a dot!")  # Message d'erreur si l'utilisateur n'entre pas un chiffre
 
 give_the_bill() #fais appel a la fonction pour lancer le programme
 
